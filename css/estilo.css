@@ -10,7 +10,6 @@ h1 {
     color: white;
     background: rgb(2,0,36);
     background: linear-gradient(202deg, rgba(2,0,36,1) 0%, rgba(40,7,7,1) 0%, rgba(255,0,0,1) 59%);
-    /* background-color: red; */
     text-align: center;
     padding: 20px;
 }
@@ -48,8 +47,8 @@ nav {
 }
 
 body {
-    background: rgb(0,90,255);
-    background: linear-gradient(0deg, rgba(0,90,255,1) 0%, rgba(107,227,255,1) 50%, rgba(0,69,255,1) 100%);
+    background: rgb(36,67,182);
+    background: linear-gradient(0deg, rgba(36,67,182,1) 0%, rgba(43,145,234,1) 50%, rgba(36,67,182,1) 100%);
 }
 
 .main {
@@ -72,7 +71,30 @@ body {
     width: 400px;
 }
 
+.region {
+    margin: 20px 50px 20px 50px;
+    padding: 20px;
+}
 
+.inicial {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-inicial {
+    width: 275px;
+    height: 275px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 10px 0 white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.img-inicial img {
+    width: 275px;
+    height: 275px;
+}
 
 footer {
     padding: 3em;
