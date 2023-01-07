@@ -75,25 +75,38 @@ body {
 
 .inicial {
     background-color: white;
-    text-align: center;
     font-family: 'Roboto', sans-serif;
     margin: 0 5px 20px 5px;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column; 
 }
 
 .img-inicial {
-    width: 150px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     height: 150px;
-    /* border-radius: 16px; */
-    /* margin-top: 5px;
-    margin-bottom: 5px; */
+    
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 
 .img-inicial img {
     width: 125px;
     height: 125px;
+    margin-top: 10px;
+} 
+
+.planta {
+    background-image: url(../images/ambiente-tipo-planta.jpg);
+    /* background-position: center center; */
+    background-size: cover;
+}
+
+.descripcion {
+    padding: 5px;
+    text-align: center;
 }
 
 footer {
