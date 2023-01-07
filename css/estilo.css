@@ -8,8 +8,7 @@
 h1 {
     font-family: 'Orbitron', sans-serif;
     color: white;
-    background: rgb(2,0,36);
-    background: linear-gradient(202deg, rgba(2,0,36,1) 0%, rgba(40,7,7,1) 0%, rgba(255,0,0,1) 59%);
+    background-color: red;
     text-align: center;
     padding: 20px;
 }
@@ -25,12 +24,12 @@ nav {
     background-color: white;
 }
 
-.bar-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.bar-flex {
+    display: flex;
+    flex-direction: column;
 }
 
-.bar-grid li {
+.bar-flex li {
     background-color: white;
     list-style-type: none;
     text-align: center;
@@ -40,15 +39,14 @@ nav {
     box-shadow: 1px 1px 10px 0 black;
 }
 
-.bar-grid li a {
+.bar-flex li a {
     color: black;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background: rgb(36,67,182);
-    background: linear-gradient(0deg, rgba(36,67,182,1) 0%, rgba(43,145,234,1) 50%, rgba(36,67,182,1) 100%);
+    background-color: rgb(44, 162, 246);
 }
 
 .main {
@@ -60,15 +58,14 @@ body {
 .subtitulos {
     border-radius: 16px;
     box-shadow: 1px 1px 10px 0 white;
-    background: rgb(49,104,252);
-    background: radial-gradient(circle, rgba(49,104,252,1) 42%, rgba(144,198,255,1) 100%);
+    background-color: rgb(48, 48, 237);
     margin: 20px 50px 20px 50px;
     padding: 20px;
 }
 
 .inicio div img {
-    height: 840px;
-    width: 400px;
+    height: 740px;
+    width: 300px;
 }
 
 .region {
@@ -77,29 +74,31 @@ body {
 }
 
 .inicial {
-    color: white;
+    background-color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    margin: 0 5px 20px 5px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .img-inicial {
-    width: 275px;
-    height: 275px;
-    border-radius: 16px;
-    box-shadow: 1px 1px 10px 0 white;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    width: 150px;
+    height: 150px;
+    /* border-radius: 16px; */
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
 }
 
 .img-inicial img {
-    width: 275px;
-    height: 275px;
+    width: 125px;
+    height: 125px;
 }
 
 footer {
     padding: 3em;
-    background: rgb(2,0,36);
-    background: linear-gradient(31deg, rgba(2,0,36,1) 0%, rgba(40,7,7,1) 0%, rgba(255,0,0,1) 59%);
+    background-color: red;
 }
 
 /* .bar-grid {
