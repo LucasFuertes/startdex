@@ -63,10 +63,10 @@ body {
     padding: 20px;
 }
 
-.inicio div img {
+/* .inicio div img {
     height: 740px;
     width: 300px;
-}
+} */
 
 .region {
     margin: 20px 50px 20px 50px;
@@ -76,8 +76,9 @@ body {
 .inicial {
     background-color: white;
     font-family: 'Roboto', sans-serif;
-    margin: 0 5px 20px 5px;
+    margin: 0 20px 20px 20px;
     border-radius: 16px;
+    border: 2px solid white;
     display: flex;
     flex-direction: column; 
 }
@@ -104,6 +105,16 @@ body {
     background-size: cover;
 }
 
+.fuego {
+    background-image: url(../images/ambiente-tipo-fuego.jpg);
+    background-size: cover;
+}
+
+.agua {
+    background-image: url(../images/ambiente-tipo-agua.jpg);
+    background-size: cover;
+}
+
 .descripcion {
     padding: 5px;
     text-align: center;
@@ -112,6 +123,10 @@ body {
 footer {
     padding: 3em;
     background-color: red;
+}
+
+@media (min-width: 480px){
+    
 }
 
 /* .bar-grid {
