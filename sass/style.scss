@@ -1,11 +1,5 @@
 @import "generales";
 
-.bar-flex {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-}
-
 .bar-flex li {
     background-color: white;
     list-style-type: none;
@@ -20,25 +14,6 @@
     color: black;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-}
-
-body {
-    background-color: rgb(44, 162, 246);
-}
-
-.main {
-    color: white;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-}
-
-.subtitulos {
-    border-radius: 16px;
-    box-shadow: 1px 1px 10px 0 white;
-    background-color: rgb(48, 48, 237);
-    margin: 20px 50px 20px 50px;
-    padding: 20px;
 }
 
 .region {
@@ -112,22 +87,6 @@ body {
 .font-family-default {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
-}
-
-footer {
-    margin-top: 100px;
-    padding: 3em;
-    background-color: black;
-}
-
-
-.contactos {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-}
-
-.contactos img {
-    vertical-align: middle;
 }
 
 @media (min-width: 600px){
