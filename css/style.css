@@ -1,4 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&family=Roboto&display=swap");
+.bar-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+@media (min-width: 600px) {
+  .bar-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 768px) {
+  .bar-flex {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.bar-flex li {
+  background-color: white;
+  list-style-type: none;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 16px;
+  box-shadow: 1px 1px 10px 0 black;
+}
+@media (min-width: 768px) {
+  .bar-flex li {
+    padding: 10px 5px 10px 5px;
+    width: 100%;
+  }
+}
+.bar-flex li a {
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -61,22 +99,6 @@ footer {
 }
 .contactos img {
   vertical-align: middle;
-}
-
-.bar-flex li {
-  background-color: white;
-  list-style-type: none;
-  text-align: center;
-  margin: 5px;
-  padding: 5px;
-  border-radius: 16px;
-  box-shadow: 1px 1px 10px 0 black;
-}
-
-.bar-flex li a {
-  color: black;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
 }
 
 .region {
@@ -156,10 +178,6 @@ footer {
   .region {
     font-size: 2rem;
   }
-  .bar-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
   .inicial {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -178,14 +196,6 @@ footer {
   }
 }
 @media (min-width: 768px) {
-  .bar-flex {
-    display: flex;
-    flex-direction: row;
-  }
-  .bar-flex li {
-    padding: 10px 5px 10px 5px;
-    width: 100%;
-  }
   .ini-planta {
     border: 5px solid green;
   }
