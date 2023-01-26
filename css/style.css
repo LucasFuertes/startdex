@@ -1,22 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&family=Roboto&display=swap");
-.bar-flex {
+.nav-bar {
   display: flex;
   flex-direction: column;
   padding: 0;
 }
 @media (min-width: 600px) {
-  .bar-flex {
+  .nav-bar {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 @media (min-width: 768px) {
-  .bar-flex {
+  .nav-bar {
     display: flex;
     flex-direction: row;
   }
 }
-.bar-flex li {
+.nav-bar li {
   background-color: white;
   list-style-type: none;
   text-align: center;
@@ -26,12 +26,12 @@
   box-shadow: 1px 1px 10px 0 black;
 }
 @media (min-width: 768px) {
-  .bar-flex li {
+  .nav-bar li {
     padding: 10px 5px 10px 5px;
     width: 100%;
   }
 }
-.bar-flex li a {
+.nav-bar li a {
   color: black;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
