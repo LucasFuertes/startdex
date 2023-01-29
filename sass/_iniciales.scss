@@ -1,0 +1,69 @@
+.lista-regiones {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin: 10px 30px 10px 30px;
+    border: 5px solid rgb(153, 153, 153);
+    ul {
+        list-style-type: none;
+    }
+}
+
+.region {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    background-color: white;
+    margin: 20px 100px 20px 100px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 10px 0 black;
+}
+
+.inicial {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 20px 20px 20px;
+    border-radius: 16px;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column; 
+}
+
+.img-inicial {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    img {
+        width: 125px;
+        height: 125px;
+        margin-top: 10px;
+    } 
+}
+
+.descripcion {
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 10px;
+}
+
+.planta {
+    background-image: url(../images/ambiente-tipo-planta.jpg);
+    background-size: cover;
+}
+
+.fuego {
+    background-image: url(../images/ambiente-tipo-fuego.jpg);
+    background-size: cover;
+}
+
+.agua {
+    background-image: url(../images/ambiente-tipo-agua.jpg);
+    background-size: cover;
+}

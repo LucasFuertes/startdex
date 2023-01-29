@@ -37,6 +37,20 @@
   font-family: "Roboto", sans-serif;
 }
 
+footer {
+  margin-top: 100px;
+  padding: 3em;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -87,21 +101,22 @@ nav {
   font-size: 1.5em;
 }
 
-footer {
-  margin-top: 100px;
-  padding: 3em;
-  background-color: black;
-  display: grid;
-  flex-direction: column;
-  grid-template-columns: 1fr 1fr;
-}
-
 .contactos {
   font-family: "Roboto", sans-serif;
   color: white;
 }
 .contactos img {
   vertical-align: middle;
+}
+
+.lista-regiones {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  margin: 10px 30px 10px 30px;
+  border: 5px solid rgb(153, 153, 153);
+}
+.lista-regiones ul {
+  list-style-type: none;
 }
 
 .region {
@@ -133,11 +148,20 @@ footer {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
-
 .img-inicial img {
   width: 125px;
   height: 125px;
   margin-top: 10px;
+}
+
+.descripcion {
+  padding: 5px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+  gap: 10px;
 }
 
 .planta {
@@ -153,16 +177,6 @@ footer {
 .agua {
   background-image: url(../images/ambiente-tipo-agua.jpg);
   background-size: cover;
-}
-
-.descripcion {
-  padding: 5px;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1.5em;
-  gap: 10px;
 }
 
 .all-iniciales {
