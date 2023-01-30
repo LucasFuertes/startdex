@@ -87,6 +87,8 @@ nav {
 }
 
 .subtitulos {
+  font-size: calc(1.325rem + 0.9vw);
+  font-weight: 500;
   border-radius: 16px;
   box-shadow: 1px 1px 10px 0 white;
   background-color: rgb(48, 48, 237);
@@ -189,6 +191,11 @@ nav {
 .font-family-default {
   font-family: "Roboto", sans-serif;
   font-size: 1.5em;
+}
+
+.estructura-stats {
+  background-color: black;
+  color: white;
 }
 
 @media (min-width: 600px) {
