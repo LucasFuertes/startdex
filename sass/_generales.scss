@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     background-color: rgb(44, 162, 246);
 }
@@ -46,6 +50,8 @@ nav {
 }
 
 .main {
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;

@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Estadísticas</title>
 </head>
+
 <body>
     <header>
         <h1>STARTDEX</h1>
@@ -38,22 +42,1491 @@
     <main class="main">
         <h2 class="subtitulos">ESTADISTICAS</h2>
         <p>
-            En esta página entramos en terreno competitivo, donde podremos ver la verdadera fuerza de los pokemon iniciales dentro de los videojuegos originales de la saga. A pesar de que tengan una apariencia temible o que se vean muy fuertes, las estadisticas hacen a algunos pokemon, de apariencia genial, mediocres o aceptables, siendo inferiores a otros iniciales o a muchos otros pokemon en general. En esta ocasion, si tomaremos en cuenta las mega evoluciones, las cuales solo estan disponibles para los iniciales de primera y tercera generacion.
+            En esta página entramos en terreno competitivo, donde podremos ver la verdadera fuerza de los pokemon
+            iniciales dentro de los videojuegos originales de la saga. A pesar de que tengan una apariencia temible o
+            que se vean muy fuertes, las estadisticas hacen a algunos pokemon, de apariencia genial, mediocres o
+            aceptables, siendo inferiores a otros iniciales o a muchos otros pokemon en general. En esta ocasion, si
+            tomaremos en cuenta las mega evoluciones, las cuales solo estan disponibles para los iniciales de primera y
+            tercera generacion.
         </p>
     </main>
 
-    <div class="region" id="kanto">
+    <div class="region">
         <h3>Kanto</h3>
     </div>
 
-    <div class="estructura-stats">
-        <div>
-            <img src="../images/venusaur.png" alt="pokemon venusaur">
+    <section class="estructura-stats">
+        <div class="container-plates">
+            <div class="plate-stats plate-plant">
+                <div class="center pkm-position">
+                    <h3>Venusaur</h3>
+                    <img class="img-pkm" src="../images/venusaur.png" alt="pokemon venusaur">
+                </div>
+                <div class="center stats">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 82
+                        <br>
+                        Defensa: 83
+                        <br>
+                        Ataque Especial: 100
+                        <br>
+                        Defensa Especial: 100
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="plate-stats plate-plant">
+                <div class="center pkm-position">
+                    <h3>Mega Venusaur</h3>
+                    <img class="img-pkm" src="../images/mega-venusaur.png" alt="pokemon mega venusaur">
+                </div>
+                <div class="center stats">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
         </div>
-        <div>
-            <p>Venusaur es un atacante mixto, pero mas para el lado de atacante especial. Su fuerza no solo se limita a su ataque, ya que su defensa y defensa especial son bastante altas, perfectas para que Venusaur pueda resistir varios golpes de gran poder. Sus desventajas son su baja velocidad y su poco HP, pero que se compensa con la gran variedad de movimientos utiles que posee, sumado al hecho de poseer una gran habilidad oculta. Clorofila es la habilidad oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado, un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento. Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas</p>
+        
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Venusaur y Mega Venusaur</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+
+    <section class="estructura-stats">
+        <div class="three-plates">
+            <div class="three-stats plate-fire">
+                <div class="center pkm-position">
+                    <h3>Charizard</h3>
+                    <img class="img-pkm" src="../images/charizard.png" alt="pokemon charizard">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 82
+                        <br>
+                        Defensa: 83
+                        <br>
+                        Ataque Especial: 100
+                        <br>
+                        Defensa Especial: 100
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="three-stats plate-fire">
+                <div class="center pkm-position">
+                    <h3>Mega Charizard X</h3>
+                    <img class="img-pkm" src="../images/mega-charizard-x.png" alt="pokemon mega charizard x">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="three-stats plate-fire">
+                <div class="center pkm-position">
+                    <h3>Mega Charizard Y</h3>
+                    <img class="img-pkm" src="../images/mega-charizard-y.png" alt="pokemon mega charizard y">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Charizard, Mega Charizard X, y Mega Charizard Y</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="estructura-stats">
+        <div class="container-plates">
+            <div class="plate-stats plate-water">
+                <div class="center pkm-position">
+                    <h3>Blastoise</h3>
+                    <img class="img-pkm" src="../images/blastoise.png" alt="pokemon blastoise">
+                </div>
+                <div class="center stats">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 82
+                        <br>
+                        Defensa: 83
+                        <br>
+                        Ataque Especial: 100
+                        <br>
+                        Defensa Especial: 100
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="plate-stats plate-water">
+                <div class="center pkm-position">
+                    <h3>Mega Blastoise</h3>
+                    <img class="img-pkm" src="../images/mega-blastoise.png" alt="pokemon mega blastoise">
+                </div>
+                <div class="center stats">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Blastoise y Mega Blastoise</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="region">
+        <h3>Johto</h3>
     </div>
+
+    <section class="estructura-stats">
+        <div class="three-plates">
+            <div class="three-stats plate-plant">
+                <div class="center pkm-position">
+                    <h3>Meganium</h3>
+                    <img class="img-pkm" src="../images/meganium.png" alt="pokemon meganium">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 82
+                        <br>
+                        Defensa: 83
+                        <br>
+                        Ataque Especial: 100
+                        <br>
+                        Defensa Especial: 100
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="three-stats plate-fire">
+                <div class="center pkm-position">
+                    <h3>Typhlosion</h3>
+                    <img class="img-pkm" src="../images/typhlosion.png" alt="pokemon typhlosion">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="three-stats plate-water">
+                <div class="center pkm-position">
+                    <h3>Feraligatr</h3>
+                    <img class="img-pkm" src="../images/feraligatr.png" alt="pokemon feraligatr">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Meganium</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Typhlosion</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Feraligatr</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="region">
+        <h3>Hoenn</h3>
+    </div>
+
+    <section class="estructura-stats">
+        <div class="container-plates">
+            <div class="plate-stats plate-plant">
+                <div class="center pkm-position">
+                    <h3>Sceptile</h3>
+                    <img class="img-pkm" src="../images/sceptile.png" alt="pokemon sceptile">
+                </div>
+                <div class="center stats">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 82
+                        <br>
+                        Defensa: 83
+                        <br>
+                        Ataque Especial: 100
+                        <br>
+                        Defensa Especial: 100
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="plate-stats plate-plant">
+                <div class="center pkm-position">
+                    <h3>Mega Sceptile</h3>
+                    <img class="img-pkm" src="../images/mega-sceptile.png" alt="pokemon mega sceptile">
+                </div>
+                <div class="center stats">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Sceptile y Mega Sceptile</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="estructura-stats">
+        <div class="container-plates">
+            <div class="plate-stats plate-fire">
+                <div class="center pkm-position">
+                    <h3>Blaziken</h3>
+                    <img class="img-pkm" src="../images/blaziken.png" alt="pokemon blaziken">
+                </div>
+                <div class="center stats">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 82
+                        <br>
+                        Defensa: 83
+                        <br>
+                        Ataque Especial: 100
+                        <br>
+                        Defensa Especial: 100
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="plate-stats plate-fire">
+                <div class="center pkm-position">
+                    <h3>Mega Blaziken</h3>
+                    <img class="img-pkm" src="../images/mega-blaziken.png" alt="pokemon mega blaziken">
+                </div>
+                <div class="center stats">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Blaziken y Mega Blaziken</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="estructura-stats">
+        <div class="container-plates">
+            <div class="plate-stats plate-water">
+                <div class="center pkm-position">
+                    <h3>Swampert</h3>
+                    <img class="img-pkm" src="../images/swampert.png" alt="pokemon swampert">
+                </div>
+                <div class="center stats">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 82
+                        <br>
+                        Defensa: 83
+                        <br>
+                        Ataque Especial: 100
+                        <br>
+                        Defensa Especial: 100
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="plate-stats plate-water">
+                <div class="center pkm-position">
+                    <h3>Mega Swampert</h3>
+                    <img class="img-pkm" src="../images/mega-swampert.png" alt="pokemon mega swampert">
+                </div>
+                <div class="center stats">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Swampert y Mega Swampert</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="region">
+        <h3>Sinnoh</h3>
+    </div>
+
+    <section class="estructura-stats">
+        <div class="three-plates">
+            <div class="three-stats plate-plant">
+                <div class="center pkm-position">
+                    <h3>Torterra</h3>
+                    <img class="img-pkm" src="../images/torterra.png" alt="pokemon torterra">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 82
+                        <br>
+                        Defensa: 83
+                        <br>
+                        Ataque Especial: 100
+                        <br>
+                        Defensa Especial: 100
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="three-stats plate-fire">
+                <div class="center pkm-position">
+                    <h3>Infernape</h3>
+                    <img class="img-pkm" src="../images/infernape.png" alt="pokemon infernape">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="three-stats plate-water">
+                <div class="center pkm-position">
+                    <h3>Empoleon</h3>
+                    <img class="img-pkm" src="../images/empoleon.png" alt="pokemon empoleon">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Torterra</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Infernape</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Empoleon</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="region">
+        <h3>Unova</h3>
+    </div>
+
+    <section class="estructura-stats">
+        <div class="three-plates">
+            <div class="three-stats plate-plant">
+                <div class="center pkm-position">
+                    <h3>Serperior</h3>
+                    <img class="img-pkm" src="../images/serperior.png" alt="pokemon serperior">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 82
+                        <br>
+                        Defensa: 83
+                        <br>
+                        Ataque Especial: 100
+                        <br>
+                        Defensa Especial: 100
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="three-stats plate-fire">
+                <div class="center pkm-position">
+                    <h3>Emboar</h3>
+                    <img class="img-pkm" src="../images/emboar.png" alt="pokemon emboar">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="three-stats plate-water">
+                <div class="center pkm-position">
+                    <h3>Samurott</h3>
+                    <img class="img-pkm" src="../images/samurott.png" alt="pokemon samurott">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Serperior</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Emboar</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Samurott</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="region">
+        <h3>Kalos</h3>
+    </div>
+
+    <section class="estructura-stats">
+        <div class="three-plates">
+            <div class="three-stats plate-plant">
+                <div class="center pkm-position">
+                    <h3>Chesnaught</h3>
+                    <img class="img-pkm" src="../images/chesnaught.png" alt="pokemon chesnaught">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 82
+                        <br>
+                        Defensa: 83
+                        <br>
+                        Ataque Especial: 100
+                        <br>
+                        Defensa Especial: 100
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="three-stats plate-fire">
+                <div class="center pkm-position">
+                    <h3>Delphox</h3>
+                    <img class="img-pkm" src="../images/delphox.png" alt="pokemon delphox">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+            <div class="three-stats plate-water">
+                <div class="center pkm-position">
+                    <h3>Greninja</h3>
+                    <img class="img-pkm" src="../images/greninja.png" alt="pokemon greninja">
+                </div>
+                <div class="center three-font-size">
+                    <p>
+                        HP: 80
+                        <br>
+                        Ataque: 100
+                        <br>
+                        Defensa: 123
+                        <br>
+                        Ataque Especial: 122
+                        <br>
+                        Defensa Especial: 120
+                        <br>
+                        Velocidad: 80
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Chesnaught</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeventeen" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Delphox</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button arrow collapsed bg-dark text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseEighteen" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Greninja</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body bg-dark">
+                            <p>
+                                Venusaur es un atacante especial. Su fuerza no solo se limita a la ofensiva, ya que su defensa especial
+                                es alta, perfecto para que Venusaur pueda resistir algunos golpes.
+                                <br><br>
+                                Sus desventajas son su baja velocidad, su poco HP, su defensa y ataque, y su tipo planta, haciendolo
+                                debil a mas de 3 tipos elementales. Pero todo esto se compensa con la gran variedad de movimientos
+                                utiles que posee, sumado al hecho de poseer una gran habilidad oculta. "Clorofila" es la habilidad
+                                oculta de Venusaur. Dicha habilidad permite que el usuario duplique su velocidad bajo el clima soleado,
+                                un clima que ciertos pokemon pueden invocar por medio de una habilidad o movimiento.
+                                <br><br>
+                                Cuando Venusaur está bajo el sol con esa habilidad, se vuelve una amenaza mas grande para el equipo
+                                rival, debido a que el sol beneficia algunos de sus movimientos como Rayo Solar, que puede usarse en un
+                                solo turno en lugar de dos, y Desarrollo, un movimiento que normalmente sube en un nivel el ataque y
+                                ataque especial, pero que gracias al sol, sube en dos niveles ambas caracteristicas.
+                                <br><br>
+                                En resumen, se lo puede llevar como un atacante especial en batallas dobles, lanzandolo al campo de
+                                batalla acompañado de otro pokemon que tengan una habilidad como Sequía o Tierra del Ocaso, los cuales
+                                activan el sol una vez que entran en campo de batalla.
+                                De este modo, no solo el sol aparecerá apenas comience la batalla, sino que tambien Venusaur tendra la
+                                oportunidad de ser el primero en atacar con su velocidad duplicada y su poder de ataque especial.
+                                <br><br>
+                                Mega Venusaur se usa de una forma un poco diferente. Si bien el clima soleado sigue haciendo efecto en
+                                algunos de sus movimientos, su velocidad ya no se duplica, esto causado por el cambio de habilidad,
+                                pasando de ser "Clorofila" a "Sebo".
+                                <br><br>
+                                Sebo es una habilidad que permite al usuario neutralizar la mitad de daño de ataques de tipo fuego y de
+                                tipo hielo, y aunque la habilidad anterior suena mejor, Sebo no se queda atrás, ya que la habilidad
+                                salva a Mega Venusaur de dos de sus debilidades, fuego y hielo.
+                                <br><br>
+                                Además de su nueva habilidad, todas sus estadisticas (a excepcion de HP y velocidad) aumentan,
+                                convirtiendolo en un verdadero monstruo poderoso y resistente, pero que en muchas ocasiones, puede ser
+                                el ultimo en atacar por su baja velocidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="contactos">
@@ -68,5 +1541,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

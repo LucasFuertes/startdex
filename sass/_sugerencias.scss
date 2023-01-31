@@ -1,0 +1,58 @@
+.container-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (min-width:1024px){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    
+}
+
+.img {
+    @include sizes (125px, 125px);
+    @media (min-width:768px){
+        @include sizes (200px, 200px);
+    }
+}
+
+.red-social {
+    @include colors (black, white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    border: 10px solid white;
+    @media (min-width:600px){
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    @media (min-width:1024px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.social-text {
+    margin-top: 10px;
+    h3 {
+        font-size: 15px;
+        margin-bottom: 20px;
+        @media (min-width:600px){
+            font-size: large;
+        }
+    }
+    p {
+        font-size: 20px;
+        a {
+            text-decoration: none;
+            color: #0095ff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
