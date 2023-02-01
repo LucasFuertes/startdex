@@ -126,6 +126,7 @@ nav {
 }
 
 .lista-regiones {
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -137,18 +138,11 @@ nav {
 }
 .lista-regiones ul {
   padding-left: 0%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-@media (min-width: 480px) {
+@media (min-width: 600px) {
   .lista-regiones ul {
-    flex-direction: row;
-  }
-}
-@media (min-width: 768px) {
-  .lista-regiones ul {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
