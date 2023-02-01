@@ -1,0 +1,63 @@
+.container-megas {
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (min-width:768px){
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+.plate-mega {
+    background: rgb(181,136,0);
+    background: linear-gradient(135deg, rgba(181,136,0,1) 0%, rgba(255,246,74,1) 50%, rgba(181,136,0,1) 100%);
+    width: 260px;
+    border: 3px solid white;
+    border-radius: 16px;
+    box-shadow: 1px 1px 10px 0 white;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    @media (min-width:600px){
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    @media (min-width:768px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.img-mega {
+    @include sizes (125px, 125px);
+    @media (min-width:480px){
+        @include sizes (200px, 200px);
+    }
+    @media (min-width:768px){
+        @include sizes (250px, 250px);
+    }
+    @media (min-width:1200px){
+        @include sizes (300px, 300px);
+    }
+}
+
+.mega-data {
+    @media (min-width:480px){
+        font-size: 20px;
+    }
+}
+
+.text-mega {
+    margin-left: 20px;
+    color: white;
+    @media (min-width:768px){
+        font-size: 17px;
+    }
+    @media (min-width:1200px){
+        font-size: 23px;
+    }
+}
