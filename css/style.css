@@ -117,6 +117,11 @@ nav {
   vertical-align: middle;
 }
 
+.contact-position {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .small-list {
     display: flex;

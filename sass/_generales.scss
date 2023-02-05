@@ -61,9 +61,13 @@ nav {
 .contactos {
     font-family: 'Roboto', sans-serif;
     color: white;
-
     img {
         vertical-align: middle;
     }
+}
+
+.contact-position {
+    display: flex;
+    justify-content: center;
 }
 
