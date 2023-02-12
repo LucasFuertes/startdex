@@ -109,6 +109,10 @@ nav {
   font-size: 1.5em;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
 .contactos {
   font-family: "Roboto", sans-serif;
   color: white;
@@ -465,6 +469,9 @@ nav {
   .text-mega {
     font-size: 23px;
   }
+}
+.text-mega p {
+  margin-bottom: 20px;
 }
 
 .container-redes {
